@@ -7,7 +7,7 @@ This guide will help you set up a Puppet Master and Puppet Agent (or Puppet Node
 
 ### Modify the Puppet Master's hosts file
 
-
+```
 sudo nano /etc/hosts
 ```
 
@@ -119,9 +119,10 @@ sudo /opt/puppetlabs/bin/puppet agent --test
 ```
 sudo cat /tmp/puppet_test.txt
 
+```
+# 👉
+[PPT](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/files/12306792/Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx)
 
-# Code PPT
-[Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/files/12306730/Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx)
 
 Congratulations! Your Puppet Master [Uploading Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx…]()
 and Puppet Agent are now set up and running. You've tested the configuration to ensure everything is working smoothly.
