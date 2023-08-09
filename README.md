@@ -21,8 +21,14 @@ Add the following line:
 
 ```
 curl -O https://apt.puppetlabs.com/puppet6-release-bionic.deb
+```
+```
 sudo dpkg -i puppet6-release-bionic.deb
+```
+```
 sudo apt-get update
+```
+```
 sudo apt-get install puppetserver -y
 ```
 
@@ -36,6 +42,8 @@ sudo ufw allow 8140
 
 ```
 sudo systemctl enable puppetserver.service
+```
+```
 sudo systemctl start puppetserver.service
 ```
 
@@ -63,8 +71,14 @@ Add the following line:
 
 ```
 curl -O https://apt.puppetlabs.com/puppet6-release-bionic.deb
+```
+```
 sudo dpkg -i puppet6-release-bionic.deb
+```
+```
 sudo apt-get update
+```
+```
 sudo apt-get install puppet-agent -y
 ```
 
@@ -72,7 +86,11 @@ sudo apt-get install puppet-agent -y
 
 ```
 sudo systemctl enable puppet
+```
+```
 sudo systemctl restart puppet
+```
+```
 sudo systemctl status puppet
 ```
 
@@ -121,11 +139,10 @@ sudo cat /tmp/puppet_test.txt
 
 ```
 # 👉
-[PPT](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/files/12306792/Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx)
+[download PPT for All command. ](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/files/12306792/Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx)
 
 
-Congratulations! Your Puppet Master [Uploading Simplify-your-Puppet-Master-and-Puppet-slave-setup-on-AWS-with-these-straightforward-commands.pptx…]()
-and Puppet Agent are now set up and running. You've tested the configuration to ensure everything is working smoothly.
+Congratulations! Your Puppet Master and Puppet Agent are now set up and running. You've tested the configuration to ensure everything is working smoothly.
 
 Happy learning!
 
