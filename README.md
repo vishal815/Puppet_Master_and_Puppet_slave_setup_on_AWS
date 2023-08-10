@@ -3,6 +3,7 @@
 
 This guide will help you set up a Puppet Master and Puppet Agent (or Puppet Node) on Amazon Web Services (AWS) using straightforward commands. This setup allows you to manage configurations and automate tasks on your nodes using Puppet.
 
+
 ## Puppet Master Setup
 
 ### Modify the Puppet Master's hosts file
@@ -16,6 +17,8 @@ Add the following line:
 ```
 <Puppet_Master_Private_IP> puppet
 ```
+![p1](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/assets/83393190/0f5f7485-7f75-4c5d-87f3-41ddfb1185b0)
+
 
 ### Download and install the Puppet Master packages
 
@@ -31,7 +34,13 @@ sudo apt-get update
 ```
 sudo apt-get install puppetserver -y
 ```
-
+## Add
+```
+vim /etc/default/puppet-master
+```
+```
+11 sudo vim /etc/default/puppet-master
+```
 ### Allow traffic on port 8140
 
 ```
@@ -107,6 +116,8 @@ sudo /opt/puppetlabs/bin/puppetserver ca list
 ```
 sudo /opt/puppetlabs/bin/puppetserver ca sign --certname <Agent_CertName>
 ```
+![ss](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/assets/83393190/8d1eaf2d-9ed0-4987-add2-289be93a7ebd)
+
 
 ## Applying Manifests on Puppet Agent
 
@@ -143,6 +154,11 @@ sudo cat /tmp/puppet_test.txt
 
 
 Congratulations! Your Puppet Master and Puppet Agent are now set up and running. You've tested the configuration to ensure everything is working smoothly.
+
+![Puppet-Cheat-Sheet (1)-PhotoRoom](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/assets/83393190/b666ad4d-ac19-401b-ad76-54921826906a)
+
+
+![chef-vs-puppet-vs-ansible-what-are-the-differences-it-infographic](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/assets/83393190/f3cf14d2-e39e-49ad-b514-634a8b475099)
 
 Happy learning!
 
