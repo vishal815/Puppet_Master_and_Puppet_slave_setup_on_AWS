@@ -34,12 +34,12 @@ sudo apt-get update
 ```
 sudo apt-get install puppetserver -y
 ```
-## Add
+## Add changes
 ```
-vim /etc/default/puppet-master
+sudo nano /etc/default/puppet-master
 ```
 ```
-11 sudo vim /etc/default/puppet-master
+JAVA_ARGS = "-Xms512m -Xms512m"
 ```
 ### Allow traffic on port 8140
 
