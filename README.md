@@ -36,7 +36,7 @@ sudo apt-get install puppetserver -y
 ```
 ## Add changes
 ```
-sudo nano /etc/default/puppet-master
+sudo nano /etc/default/puppetserver
 ```
 ```
 JAVA_ARGS = "-Xms512m -Xms512m"
