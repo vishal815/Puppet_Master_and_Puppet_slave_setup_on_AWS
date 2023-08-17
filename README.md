@@ -119,7 +119,7 @@ sudo /opt/puppetlabs/bin/puppetserver ca sign --certname <Agent_CertName>
 ![ss](https://github.com/vishal815/Puppet_Master_and_Puppet_slave_setup_on_AWS/assets/83393190/8d1eaf2d-9ed0-4987-add2-289be93a7ebd)
 
 
-## Applying Manifests on Puppet Agent
+## Applying Manifests on Puppet master
 
 ### Create a Puppet manifest file
 
