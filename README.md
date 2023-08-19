@@ -3,6 +3,8 @@
 
 This guide will help you set up a Puppet Master and Puppet Agent (or Puppet Node) on Amazon Web Services (AWS) using straightforward commands. This setup allows you to manage configurations and automate tasks on your nodes using Puppet.
 
+MY Video link:-
+https://www.youtube.com/watch?v=bMBue_LOW7g&t=578s
 
 ## Puppet Master Setup
 
